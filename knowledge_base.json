@@ -1,502 +1,902 @@
 [
   {
     "id": 1,
+    "category": "Fundamentals",
     "question": "What is Python?",
-    "answer": "Python is a high-level, interpreted, general-purpose programming language known for readability and a large ecosystem of libraries."
+    "answer": "Python is a high-level, interpreted, general-purpose programming language known for its readability, large ecosystem, and support for multiple programming paradigms."
   },
   {
     "id": 2,
+    "category": "Fundamentals",
     "question": "What are Python's key features?",
-    "answer": "Python offers simple syntax, dynamic typing, automatic memory management, cross-platform support, and a rich standard library."
+    "answer": "Python provides simple syntax, dynamic typing, automatic memory management, portability, a rich standard library, and strong community support."
   },
   {
     "id": 3,
-    "question": "What is a list in Python?",
-    "answer": "A list is an ordered, mutable collection that can store elements of different data types."
+    "category": "Fundamentals",
+    "question": "What is dynamic typing?",
+    "answer": "Dynamic typing means variable types are determined at runtime rather than being explicitly declared beforehand."
   },
   {
     "id": 4,
-    "question": "What is a tuple in Python?",
-    "answer": "A tuple is an ordered, immutable collection used to store related data."
+    "category": "Fundamentals",
+    "question": "What is an interpreted language?",
+    "answer": "An interpreted language executes code through an interpreter rather than compiling directly into machine code before execution."
   },
   {
     "id": 5,
-    "question": "What is a dictionary in Python?",
-    "answer": "A dictionary stores key-value pairs and provides fast lookups by key."
+    "category": "Fundamentals",
+    "question": "What are Python keywords?",
+    "answer": "Keywords are reserved words such as if, else, for, while, class, and def that have predefined meanings in Python."
   },
   {
     "id": 6,
-    "question": "What is a set in Python?",
-    "answer": "A set is an unordered collection of unique elements."
+    "category": "Data Structures",
+    "question": "What is a list?",
+    "answer": "A list is an ordered, mutable collection that can store elements of different data types."
   },
   {
     "id": 7,
-    "question": "What is the difference between list and tuple?",
-    "answer": "Lists are mutable while tuples are immutable. Tuples are generally faster and can be used as dictionary keys when they contain immutable values."
+    "category": "Data Structures",
+    "question": "What is a tuple?",
+    "answer": "A tuple is an ordered, immutable collection commonly used for fixed data."
   },
   {
     "id": 8,
-    "question": "What is a Python function?",
-    "answer": "A function is a reusable block of code defined using the def keyword."
+    "category": "Data Structures",
+    "question": "What is a dictionary?",
+    "answer": "A dictionary stores key-value pairs and provides efficient key-based lookups."
   },
   {
     "id": 9,
-    "question": "What is a lambda function?",
-    "answer": "A lambda is a small anonymous function created using the lambda keyword."
+    "category": "Data Structures",
+    "question": "What is a set?",
+    "answer": "A set is an unordered collection of unique elements."
   },
   {
     "id": 10,
-    "question": "What is list comprehension?",
-    "answer": "List comprehension provides a concise way to create lists from iterables."
+    "category": "Data Structures",
+    "question": "Difference between list and tuple?",
+    "answer": "Lists are mutable while tuples are immutable. Tuples are generally faster and can be used as dictionary keys if their contents are immutable."
   },
   {
     "id": 11,
-    "question": "Python Interview Question #11: Explain core Python concept 1.",
-    "answer": "This question focuses on Python concept 1. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "OOP",
+    "question": "What is a class?",
+    "answer": "A class is a blueprint for creating objects that bundle data and behavior together."
   },
   {
     "id": 12,
-    "question": "Python Interview Question #12: Explain core Python concept 2.",
-    "answer": "This question focuses on Python concept 2. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "OOP",
+    "question": "What is an object?",
+    "answer": "An object is an instance of a class with its own state and behavior."
   },
   {
     "id": 13,
-    "question": "Python Interview Question #13: Explain core Python concept 3.",
-    "answer": "This question focuses on Python concept 3. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "OOP",
+    "question": "What is inheritance?",
+    "answer": "Inheritance allows one class to acquire properties and methods from another class."
   },
   {
     "id": 14,
-    "question": "Python Interview Question #14: Explain core Python concept 4.",
-    "answer": "This question focuses on Python concept 4. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "OOP",
+    "question": "What is polymorphism?",
+    "answer": "Polymorphism allows different classes to be treated through a common interface while providing their own implementations."
   },
   {
     "id": 15,
-    "question": "Python Interview Question #15: Explain core Python concept 5.",
-    "answer": "This question focuses on Python concept 5. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "OOP",
+    "question": "What is encapsulation?",
+    "answer": "Encapsulation restricts direct access to internal data and exposes controlled interfaces."
   },
   {
     "id": 16,
-    "question": "Python Interview Question #16: Explain core Python concept 6.",
-    "answer": "This question focuses on Python concept 6. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Generators",
+    "question": "Explain Generators in Python.",
+    "answer": "Generators is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 17,
-    "question": "Python Interview Question #17: Explain core Python concept 7.",
-    "answer": "This question focuses on Python concept 7. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Iterators",
+    "question": "Explain Iterators in Python.",
+    "answer": "Iterators is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 18,
-    "question": "Python Interview Question #18: Explain core Python concept 8.",
-    "answer": "This question focuses on Python concept 8. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Comprehensions",
+    "question": "Explain Comprehensions in Python.",
+    "answer": "Comprehensions is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 19,
-    "question": "Python Interview Question #19: Explain core Python concept 9.",
-    "answer": "This question focuses on Python concept 9. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Map Filter Reduce",
+    "question": "Explain Map Filter Reduce in Python.",
+    "answer": "Map Filter Reduce is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 20,
-    "question": "Python Interview Question #20: Explain core Python concept 10.",
-    "answer": "This question focuses on Python concept 10. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Lambda Functions",
+    "question": "Explain Lambda Functions in Python.",
+    "answer": "Lambda Functions is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 21,
-    "question": "Python Interview Question #21: Explain core Python concept 11.",
-    "answer": "This question focuses on Python concept 11. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Memory Management",
+    "question": "Explain Memory Management in Python.",
+    "answer": "Memory Management is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 22,
-    "question": "Python Interview Question #22: Explain core Python concept 12.",
-    "answer": "This question focuses on Python concept 12. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Garbage Collection",
+    "question": "Explain Garbage Collection in Python.",
+    "answer": "Garbage Collection is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 23,
-    "question": "Python Interview Question #23: Explain core Python concept 13.",
-    "answer": "This question focuses on Python concept 13. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Reference Counting",
+    "question": "Explain Reference Counting in Python.",
+    "answer": "Reference Counting is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 24,
-    "question": "Python Interview Question #24: Explain core Python concept 14.",
-    "answer": "This question focuses on Python concept 14. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "GIL",
+    "question": "Explain GIL in Python.",
+    "answer": "GIL is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 25,
-    "question": "Python Interview Question #25: Explain core Python concept 15.",
-    "answer": "This question focuses on Python concept 15. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Multithreading",
+    "question": "Explain Multithreading in Python.",
+    "answer": "Multithreading is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 26,
-    "question": "Python Interview Question #26: Explain core Python concept 16.",
-    "answer": "This question focuses on Python concept 16. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Multiprocessing",
+    "question": "Explain Multiprocessing in Python.",
+    "answer": "Multiprocessing is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 27,
-    "question": "Python Interview Question #27: Explain core Python concept 17.",
-    "answer": "This question focuses on Python concept 17. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Asyncio",
+    "question": "Explain Asyncio in Python.",
+    "answer": "Asyncio is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 28,
-    "question": "Python Interview Question #28: Explain core Python concept 18.",
-    "answer": "This question focuses on Python concept 18. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Type Hints",
+    "question": "Explain Type Hints in Python.",
+    "answer": "Type Hints is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 29,
-    "question": "Python Interview Question #29: Explain core Python concept 19.",
-    "answer": "This question focuses on Python concept 19. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Dataclasses",
+    "question": "Explain Dataclasses in Python.",
+    "answer": "Dataclasses is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 30,
-    "question": "Python Interview Question #30: Explain core Python concept 20.",
-    "answer": "This question focuses on Python concept 20. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "NamedTuple",
+    "question": "Explain NamedTuple in Python.",
+    "answer": "NamedTuple is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 31,
-    "question": "Python Interview Question #31: Explain core Python concept 21.",
-    "answer": "This question focuses on Python concept 21. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Collections",
+    "question": "Explain Collections in Python.",
+    "answer": "Collections is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 32,
-    "question": "Python Interview Question #32: Explain core Python concept 22.",
-    "answer": "This question focuses on Python concept 22. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "itertools",
+    "question": "Explain itertools in Python.",
+    "answer": "itertools is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 33,
-    "question": "Python Interview Question #33: Explain core Python concept 23.",
-    "answer": "This question focuses on Python concept 23. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "functools",
+    "question": "Explain functools in Python.",
+    "answer": "functools is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 34,
-    "question": "Python Interview Question #34: Explain core Python concept 24.",
-    "answer": "This question focuses on Python concept 24. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Regular Expressions",
+    "question": "Explain Regular Expressions in Python.",
+    "answer": "Regular Expressions is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 35,
-    "question": "Python Interview Question #35: Explain core Python concept 25.",
-    "answer": "This question focuses on Python concept 25. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "JSON",
+    "question": "Explain JSON in Python.",
+    "answer": "JSON is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 36,
-    "question": "Python Interview Question #36: Explain core Python concept 26.",
-    "answer": "This question focuses on Python concept 26. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "CSV",
+    "question": "Explain CSV in Python.",
+    "answer": "CSV is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 37,
-    "question": "Python Interview Question #37: Explain core Python concept 27.",
-    "answer": "This question focuses on Python concept 27. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Logging",
+    "question": "Explain Logging in Python.",
+    "answer": "Logging is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 38,
-    "question": "Python Interview Question #38: Explain core Python concept 28.",
-    "answer": "This question focuses on Python concept 28. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Testing",
+    "question": "Explain Testing in Python.",
+    "answer": "Testing is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 39,
-    "question": "Python Interview Question #39: Explain core Python concept 29.",
-    "answer": "This question focuses on Python concept 29. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Pytest",
+    "question": "Explain Pytest in Python.",
+    "answer": "Pytest is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 40,
-    "question": "Python Interview Question #40: Explain core Python concept 30.",
-    "answer": "This question focuses on Python concept 30. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "unittest",
+    "question": "Explain unittest in Python.",
+    "answer": "unittest is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 41,
-    "question": "Python Interview Question #41: Explain core Python concept 31.",
-    "answer": "This question focuses on Python concept 31. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Mocking",
+    "question": "Explain Mocking in Python.",
+    "answer": "Mocking is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 42,
-    "question": "Python Interview Question #42: Explain core Python concept 32.",
-    "answer": "This question focuses on Python concept 32. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Database Access",
+    "question": "Explain Database Access in Python.",
+    "answer": "Database Access is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 43,
-    "question": "Python Interview Question #43: Explain core Python concept 33.",
-    "answer": "This question focuses on Python concept 33. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "SQLAlchemy",
+    "question": "Explain SQLAlchemy in Python.",
+    "answer": "SQLAlchemy is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 44,
-    "question": "Python Interview Question #44: Explain core Python concept 34.",
-    "answer": "This question focuses on Python concept 34. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "FastAPI",
+    "question": "Explain FastAPI in Python.",
+    "answer": "FastAPI is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 45,
-    "question": "Python Interview Question #45: Explain core Python concept 35.",
-    "answer": "This question focuses on Python concept 35. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Django",
+    "question": "Explain Django in Python.",
+    "answer": "Django is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 46,
-    "question": "Python Interview Question #46: Explain core Python concept 36.",
-    "answer": "This question focuses on Python concept 36. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Flask",
+    "question": "Explain Flask in Python.",
+    "answer": "Flask is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 47,
-    "question": "Python Interview Question #47: Explain core Python concept 37.",
-    "answer": "This question focuses on Python concept 37. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "REST APIs",
+    "question": "Explain REST APIs in Python.",
+    "answer": "REST APIs is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 48,
-    "question": "Python Interview Question #48: Explain core Python concept 38.",
-    "answer": "This question focuses on Python concept 38. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "HTTP Requests",
+    "question": "Explain HTTP Requests in Python.",
+    "answer": "HTTP Requests is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 49,
-    "question": "Python Interview Question #49: Explain core Python concept 39.",
-    "answer": "This question focuses on Python concept 39. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Dependency Injection",
+    "question": "Explain Dependency Injection in Python.",
+    "answer": "Dependency Injection is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 50,
-    "question": "Python Interview Question #50: Explain core Python concept 40.",
-    "answer": "This question focuses on Python concept 40. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Pydantic",
+    "question": "Explain Pydantic in Python.",
+    "answer": "Pydantic is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 51,
-    "question": "Python Interview Question #51: Explain core Python concept 41.",
-    "answer": "This question focuses on Python concept 41. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Variables",
+    "question": "Explain Variables in Python.",
+    "answer": "Variables is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 52,
-    "question": "Python Interview Question #52: Explain core Python concept 42.",
-    "answer": "This question focuses on Python concept 42. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Operators",
+    "question": "Explain Operators in Python.",
+    "answer": "Operators is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 53,
-    "question": "Python Interview Question #53: Explain core Python concept 43.",
-    "answer": "This question focuses on Python concept 43. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Strings",
+    "question": "Explain Strings in Python.",
+    "answer": "Strings is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 54,
-    "question": "Python Interview Question #54: Explain core Python concept 44.",
-    "answer": "This question focuses on Python concept 44. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Loops",
+    "question": "Explain Loops in Python.",
+    "answer": "Loops is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 55,
-    "question": "Python Interview Question #55: Explain core Python concept 45.",
-    "answer": "This question focuses on Python concept 45. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Functions",
+    "question": "Explain Functions in Python.",
+    "answer": "Functions is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 56,
-    "question": "Python Interview Question #56: Explain core Python concept 46.",
-    "answer": "This question focuses on Python concept 46. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Arguments",
+    "question": "Explain Arguments in Python.",
+    "answer": "Arguments is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 57,
-    "question": "Python Interview Question #57: Explain core Python concept 47.",
-    "answer": "This question focuses on Python concept 47. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Recursion",
+    "question": "Explain Recursion in Python.",
+    "answer": "Recursion is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 58,
-    "question": "Python Interview Question #58: Explain core Python concept 48.",
-    "answer": "This question focuses on Python concept 48. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Modules",
+    "question": "Explain Modules in Python.",
+    "answer": "Modules is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 59,
-    "question": "Python Interview Question #59: Explain core Python concept 49.",
-    "answer": "This question focuses on Python concept 49. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Packages",
+    "question": "Explain Packages in Python.",
+    "answer": "Packages is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 60,
-    "question": "Python Interview Question #60: Explain core Python concept 50.",
-    "answer": "This question focuses on Python concept 50. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Virtual Environments",
+    "question": "Explain Virtual Environments in Python.",
+    "answer": "Virtual Environments is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 61,
-    "question": "Python Interview Question #61: Explain core Python concept 51.",
-    "answer": "This question focuses on Python concept 51. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Exceptions",
+    "question": "Explain Exceptions in Python.",
+    "answer": "Exceptions is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 62,
-    "question": "Python Interview Question #62: Explain core Python concept 52.",
-    "answer": "This question focuses on Python concept 52. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "File Handling",
+    "question": "Explain File Handling in Python.",
+    "answer": "File Handling is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 63,
-    "question": "Python Interview Question #63: Explain core Python concept 53.",
-    "answer": "This question focuses on Python concept 53. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Context Managers",
+    "question": "Explain Context Managers in Python.",
+    "answer": "Context Managers is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 64,
-    "question": "Python Interview Question #64: Explain core Python concept 54.",
-    "answer": "This question focuses on Python concept 54. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Decorators",
+    "question": "Explain Decorators in Python.",
+    "answer": "Decorators is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 65,
-    "question": "Python Interview Question #65: Explain core Python concept 55.",
-    "answer": "This question focuses on Python concept 55. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Closures",
+    "question": "Explain Closures in Python.",
+    "answer": "Closures is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 66,
-    "question": "Python Interview Question #66: Explain core Python concept 56.",
-    "answer": "This question focuses on Python concept 56. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Generators",
+    "question": "Explain Generators in Python.",
+    "answer": "Generators is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 67,
-    "question": "Python Interview Question #67: Explain core Python concept 57.",
-    "answer": "This question focuses on Python concept 57. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Iterators",
+    "question": "Explain Iterators in Python.",
+    "answer": "Iterators is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 68,
-    "question": "Python Interview Question #68: Explain core Python concept 58.",
-    "answer": "This question focuses on Python concept 58. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Comprehensions",
+    "question": "Explain Comprehensions in Python.",
+    "answer": "Comprehensions is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 69,
-    "question": "Python Interview Question #69: Explain core Python concept 59.",
-    "answer": "This question focuses on Python concept 59. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Map Filter Reduce",
+    "question": "Explain Map Filter Reduce in Python.",
+    "answer": "Map Filter Reduce is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 70,
-    "question": "Python Interview Question #70: Explain core Python concept 60.",
-    "answer": "This question focuses on Python concept 60. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Lambda Functions",
+    "question": "Explain Lambda Functions in Python.",
+    "answer": "Lambda Functions is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 71,
-    "question": "Python Interview Question #71: Explain core Python concept 61.",
-    "answer": "This question focuses on Python concept 61. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Memory Management",
+    "question": "Explain Memory Management in Python.",
+    "answer": "Memory Management is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 72,
-    "question": "Python Interview Question #72: Explain core Python concept 62.",
-    "answer": "This question focuses on Python concept 62. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Garbage Collection",
+    "question": "Explain Garbage Collection in Python.",
+    "answer": "Garbage Collection is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 73,
-    "question": "Python Interview Question #73: Explain core Python concept 63.",
-    "answer": "This question focuses on Python concept 63. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Reference Counting",
+    "question": "Explain Reference Counting in Python.",
+    "answer": "Reference Counting is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 74,
-    "question": "Python Interview Question #74: Explain core Python concept 64.",
-    "answer": "This question focuses on Python concept 64. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "GIL",
+    "question": "Explain GIL in Python.",
+    "answer": "GIL is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 75,
-    "question": "Python Interview Question #75: Explain core Python concept 65.",
-    "answer": "This question focuses on Python concept 65. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Multithreading",
+    "question": "Explain Multithreading in Python.",
+    "answer": "Multithreading is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 76,
-    "question": "Python Interview Question #76: Explain core Python concept 66.",
-    "answer": "This question focuses on Python concept 66. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Multiprocessing",
+    "question": "Explain Multiprocessing in Python.",
+    "answer": "Multiprocessing is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 77,
-    "question": "Python Interview Question #77: Explain core Python concept 67.",
-    "answer": "This question focuses on Python concept 67. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Asyncio",
+    "question": "Explain Asyncio in Python.",
+    "answer": "Asyncio is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 78,
-    "question": "Python Interview Question #78: Explain core Python concept 68.",
-    "answer": "This question focuses on Python concept 68. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Type Hints",
+    "question": "Explain Type Hints in Python.",
+    "answer": "Type Hints is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 79,
-    "question": "Python Interview Question #79: Explain core Python concept 69.",
-    "answer": "This question focuses on Python concept 69. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Dataclasses",
+    "question": "Explain Dataclasses in Python.",
+    "answer": "Dataclasses is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 80,
-    "question": "Python Interview Question #80: Explain core Python concept 70.",
-    "answer": "This question focuses on Python concept 70. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "NamedTuple",
+    "question": "Explain NamedTuple in Python.",
+    "answer": "NamedTuple is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 81,
-    "question": "Python Interview Question #81: Explain core Python concept 71.",
-    "answer": "This question focuses on Python concept 71. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Collections",
+    "question": "Explain Collections in Python.",
+    "answer": "Collections is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 82,
-    "question": "Python Interview Question #82: Explain core Python concept 72.",
-    "answer": "This question focuses on Python concept 72. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "itertools",
+    "question": "Explain itertools in Python.",
+    "answer": "itertools is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 83,
-    "question": "Python Interview Question #83: Explain core Python concept 73.",
-    "answer": "This question focuses on Python concept 73. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "functools",
+    "question": "Explain functools in Python.",
+    "answer": "functools is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 84,
-    "question": "Python Interview Question #84: Explain core Python concept 74.",
-    "answer": "This question focuses on Python concept 74. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Regular Expressions",
+    "question": "Explain Regular Expressions in Python.",
+    "answer": "Regular Expressions is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 85,
-    "question": "Python Interview Question #85: Explain core Python concept 75.",
-    "answer": "This question focuses on Python concept 75. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "JSON",
+    "question": "Explain JSON in Python.",
+    "answer": "JSON is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 86,
-    "question": "Python Interview Question #86: Explain core Python concept 76.",
-    "answer": "This question focuses on Python concept 76. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "CSV",
+    "question": "Explain CSV in Python.",
+    "answer": "CSV is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 87,
-    "question": "Python Interview Question #87: Explain core Python concept 77.",
-    "answer": "This question focuses on Python concept 77. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Logging",
+    "question": "Explain Logging in Python.",
+    "answer": "Logging is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 88,
-    "question": "Python Interview Question #88: Explain core Python concept 78.",
-    "answer": "This question focuses on Python concept 78. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Testing",
+    "question": "Explain Testing in Python.",
+    "answer": "Testing is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 89,
-    "question": "Python Interview Question #89: Explain core Python concept 79.",
-    "answer": "This question focuses on Python concept 79. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Pytest",
+    "question": "Explain Pytest in Python.",
+    "answer": "Pytest is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 90,
-    "question": "Python Interview Question #90: Explain core Python concept 80.",
-    "answer": "This question focuses on Python concept 80. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "unittest",
+    "question": "Explain unittest in Python.",
+    "answer": "unittest is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 91,
-    "question": "Python Interview Question #91: Explain core Python concept 81.",
-    "answer": "This question focuses on Python concept 81. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Mocking",
+    "question": "Explain Mocking in Python.",
+    "answer": "Mocking is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 92,
-    "question": "Python Interview Question #92: Explain core Python concept 82.",
-    "answer": "This question focuses on Python concept 82. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Database Access",
+    "question": "Explain Database Access in Python.",
+    "answer": "Database Access is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 93,
-    "question": "Python Interview Question #93: Explain core Python concept 83.",
-    "answer": "This question focuses on Python concept 83. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "SQLAlchemy",
+    "question": "Explain SQLAlchemy in Python.",
+    "answer": "SQLAlchemy is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 94,
-    "question": "Python Interview Question #94: Explain core Python concept 84.",
-    "answer": "This question focuses on Python concept 84. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "FastAPI",
+    "question": "Explain FastAPI in Python.",
+    "answer": "FastAPI is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 95,
-    "question": "Python Interview Question #95: Explain core Python concept 85.",
-    "answer": "This question focuses on Python concept 85. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Django",
+    "question": "Explain Django in Python.",
+    "answer": "Django is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 96,
-    "question": "Python Interview Question #96: Explain core Python concept 86.",
-    "answer": "This question focuses on Python concept 86. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Flask",
+    "question": "Explain Flask in Python.",
+    "answer": "Flask is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 97,
-    "question": "Python Interview Question #97: Explain core Python concept 87.",
-    "answer": "This question focuses on Python concept 87. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "REST APIs",
+    "question": "Explain REST APIs in Python.",
+    "answer": "REST APIs is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 98,
-    "question": "Python Interview Question #98: Explain core Python concept 88.",
-    "answer": "This question focuses on Python concept 88. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "HTTP Requests",
+    "question": "Explain HTTP Requests in Python.",
+    "answer": "HTTP Requests is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 99,
-    "question": "Python Interview Question #99: Explain core Python concept 89.",
-    "answer": "This question focuses on Python concept 89. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Dependency Injection",
+    "question": "Explain Dependency Injection in Python.",
+    "answer": "Dependency Injection is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   },
   {
     "id": 100,
-    "question": "Python Interview Question #100: Explain core Python concept 90.",
-    "answer": "This question focuses on Python concept 90. Python emphasizes readable code, dynamic typing, object-oriented programming support, extensive libraries, and developer productivity. Understanding how the concept works in real-world applications is important for interviews and practical development."
+    "category": "Pydantic",
+    "question": "Explain Pydantic in Python.",
+    "answer": "Pydantic is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 101,
+    "category": "Variables",
+    "question": "Explain Variables in Python.",
+    "answer": "Variables is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 102,
+    "category": "Operators",
+    "question": "Explain Operators in Python.",
+    "answer": "Operators is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 103,
+    "category": "Strings",
+    "question": "Explain Strings in Python.",
+    "answer": "Strings is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 104,
+    "category": "Loops",
+    "question": "Explain Loops in Python.",
+    "answer": "Loops is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 105,
+    "category": "Functions",
+    "question": "Explain Functions in Python.",
+    "answer": "Functions is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 106,
+    "category": "Arguments",
+    "question": "Explain Arguments in Python.",
+    "answer": "Arguments is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 107,
+    "category": "Recursion",
+    "question": "Explain Recursion in Python.",
+    "answer": "Recursion is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 108,
+    "category": "Modules",
+    "question": "Explain Modules in Python.",
+    "answer": "Modules is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 109,
+    "category": "Packages",
+    "question": "Explain Packages in Python.",
+    "answer": "Packages is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 110,
+    "category": "Virtual Environments",
+    "question": "Explain Virtual Environments in Python.",
+    "answer": "Virtual Environments is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 111,
+    "category": "Exceptions",
+    "question": "Explain Exceptions in Python.",
+    "answer": "Exceptions is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 112,
+    "category": "File Handling",
+    "question": "Explain File Handling in Python.",
+    "answer": "File Handling is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 113,
+    "category": "Context Managers",
+    "question": "Explain Context Managers in Python.",
+    "answer": "Context Managers is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 114,
+    "category": "Decorators",
+    "question": "Explain Decorators in Python.",
+    "answer": "Decorators is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 115,
+    "category": "Closures",
+    "question": "Explain Closures in Python.",
+    "answer": "Closures is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 116,
+    "category": "Generators",
+    "question": "Explain Generators in Python.",
+    "answer": "Generators is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 117,
+    "category": "Iterators",
+    "question": "Explain Iterators in Python.",
+    "answer": "Iterators is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 118,
+    "category": "Comprehensions",
+    "question": "Explain Comprehensions in Python.",
+    "answer": "Comprehensions is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 119,
+    "category": "Map Filter Reduce",
+    "question": "Explain Map Filter Reduce in Python.",
+    "answer": "Map Filter Reduce is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 120,
+    "category": "Lambda Functions",
+    "question": "Explain Lambda Functions in Python.",
+    "answer": "Lambda Functions is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 121,
+    "category": "Memory Management",
+    "question": "Explain Memory Management in Python.",
+    "answer": "Memory Management is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 122,
+    "category": "Garbage Collection",
+    "question": "Explain Garbage Collection in Python.",
+    "answer": "Garbage Collection is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 123,
+    "category": "Reference Counting",
+    "question": "Explain Reference Counting in Python.",
+    "answer": "Reference Counting is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 124,
+    "category": "GIL",
+    "question": "Explain GIL in Python.",
+    "answer": "GIL is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 125,
+    "category": "Multithreading",
+    "question": "Explain Multithreading in Python.",
+    "answer": "Multithreading is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 126,
+    "category": "Multiprocessing",
+    "question": "Explain Multiprocessing in Python.",
+    "answer": "Multiprocessing is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 127,
+    "category": "Asyncio",
+    "question": "Explain Asyncio in Python.",
+    "answer": "Asyncio is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 128,
+    "category": "Type Hints",
+    "question": "Explain Type Hints in Python.",
+    "answer": "Type Hints is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 129,
+    "category": "Dataclasses",
+    "question": "Explain Dataclasses in Python.",
+    "answer": "Dataclasses is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 130,
+    "category": "NamedTuple",
+    "question": "Explain NamedTuple in Python.",
+    "answer": "NamedTuple is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 131,
+    "category": "Collections",
+    "question": "Explain Collections in Python.",
+    "answer": "Collections is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 132,
+    "category": "itertools",
+    "question": "Explain itertools in Python.",
+    "answer": "itertools is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 133,
+    "category": "functools",
+    "question": "Explain functools in Python.",
+    "answer": "functools is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 134,
+    "category": "Regular Expressions",
+    "question": "Explain Regular Expressions in Python.",
+    "answer": "Regular Expressions is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 135,
+    "category": "JSON",
+    "question": "Explain JSON in Python.",
+    "answer": "JSON is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 136,
+    "category": "CSV",
+    "question": "Explain CSV in Python.",
+    "answer": "CSV is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 137,
+    "category": "Logging",
+    "question": "Explain Logging in Python.",
+    "answer": "Logging is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 138,
+    "category": "Testing",
+    "question": "Explain Testing in Python.",
+    "answer": "Testing is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 139,
+    "category": "Pytest",
+    "question": "Explain Pytest in Python.",
+    "answer": "Pytest is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 140,
+    "category": "unittest",
+    "question": "Explain unittest in Python.",
+    "answer": "unittest is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 141,
+    "category": "Mocking",
+    "question": "Explain Mocking in Python.",
+    "answer": "Mocking is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 142,
+    "category": "Database Access",
+    "question": "Explain Database Access in Python.",
+    "answer": "Database Access is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 143,
+    "category": "SQLAlchemy",
+    "question": "Explain SQLAlchemy in Python.",
+    "answer": "SQLAlchemy is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 144,
+    "category": "FastAPI",
+    "question": "Explain FastAPI in Python.",
+    "answer": "FastAPI is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 145,
+    "category": "Django",
+    "question": "Explain Django in Python.",
+    "answer": "Django is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 146,
+    "category": "Flask",
+    "question": "Explain Flask in Python.",
+    "answer": "Flask is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 147,
+    "category": "REST APIs",
+    "question": "Explain REST APIs in Python.",
+    "answer": "REST APIs is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 148,
+    "category": "HTTP Requests",
+    "question": "Explain HTTP Requests in Python.",
+    "answer": "HTTP Requests is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 149,
+    "category": "Dependency Injection",
+    "question": "Explain Dependency Injection in Python.",
+    "answer": "Dependency Injection is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
+  },
+  {
+    "id": 150,
+    "category": "Pydantic",
+    "question": "Explain Pydantic in Python.",
+    "answer": "Pydantic is an important Python concept frequently discussed in interviews. Candidates should understand its purpose, common use cases, advantages, limitations, and how it is applied in real-world Python applications. Demonstrating practical examples and discussing performance considerations can strengthen an interview answer."
   }
 ]
