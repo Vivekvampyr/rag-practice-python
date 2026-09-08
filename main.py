@@ -1,9 +1,8 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from rag import KnowledgeBase
+from rag import retrieve
 
 app = FastAPI(title="Welcome to RAG implementation")
-kb = KnowledgeBase("knowledge_base_150_python.json")
 
 class Query(BaseModel):
     question: str
@@ -14,10 +13,17 @@ def root():
 
 @app.post("/ask")
 def ask(query: Query):
-    matches = kb.search(query.question, k_top=1)[0]
-    best = max(matches, )
+    matches = retrieve(query.question, top_k=3, similarity_threshold=0.5)
+    if not matches:
+        return {"answer": "Sorry, I don't have information on that.", "matched": False}
+    
+    best = matches[0]
+
     return {
-        "question": matches["question"],
-        "answer": matches["answer"],
-        "score": matches["score"]
+        "answer": best["answer"],
+        "matched_question": best["question"],
+        "category": best["category"],
+        "score": best["score"],
+        "matched": True,
+        "other_candidates": matches[1:]
         }
